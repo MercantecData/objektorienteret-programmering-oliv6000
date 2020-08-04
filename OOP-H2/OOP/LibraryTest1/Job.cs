@@ -9,5 +9,12 @@ namespace LibraryTest1
         public string jobTitle;
         public string jobPosition;
         public int salary;
+
+        public Job(string jobTitle, string jobPosition, int salary)
+        {
+            this.jobTitle = jobTitle;
+            this.jobPosition = jobPosition;
+            this.salary = salary;
+        }
     }
 }

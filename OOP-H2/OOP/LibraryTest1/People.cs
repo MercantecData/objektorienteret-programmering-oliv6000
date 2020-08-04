@@ -12,6 +12,11 @@ namespace LibraryTest1
         {
             people.Add(person);
         }
+
+        public void addPersonToPeople(string name, int cpr, string birthDate, int height, int weight, Job job)
+        {
+            people.Add(new Person(name, cpr, birthDate, height, weight, job));
+        }
     }
 
 }
