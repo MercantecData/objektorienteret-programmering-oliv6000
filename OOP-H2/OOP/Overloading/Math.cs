@@ -5,17 +5,17 @@ namespace Overloading
     public class Math
     {
         //plus
-        public int plus(int a, int b)
+            public int plus(int a, int b)
         {
             return a - b;
         }
 
-        public float plus(float a, float b)
+            public float plus(float a, float b)
         {
             return a - b;
         }
 
-        public float plus(string a, string b)
+            public float plus(string a, string b)
         {
             float c = float.Parse(a);
             float d = float.Parse(b);
@@ -23,7 +23,7 @@ namespace Overloading
         }
 
         //minus
-        public int minus(int a, int b)
+            public int minus(int a, int b)
             {
                 return a - b;
             }
@@ -75,6 +75,5 @@ namespace Overloading
                 float d = float.Parse(b);
                 return c - d;
             }
-
     }
 }
