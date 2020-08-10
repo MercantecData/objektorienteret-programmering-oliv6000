@@ -14,21 +14,28 @@ namespace DictionaryTest
             while (UserInput != "quit")
             {
                 UserInput = Console.ReadLine();
-
-
-                int i = 0;
-                int ii = 0;
-                foreach (var item in NRDictionary.numbers.Keys)
+                if (UserInput == "quit")
                 {
-                    i += 1;
-                    if (UserInput == item)
+
+                } 
+                else
+                {
+                    int i = 0;
+                    int ii = 0;
+
+                    foreach (var item in NRDictionary.numbers.Keys)
                     {
-                        ii += 1;
-                        Console.WriteLine("Dictionary value => " + NRDictionary.numbers[UserInput] + "\n");
-                    }
-                    else if (i == NRDictionary.numbers.Count && ii == 0)
-                    {
-                        Console.WriteLine("Couldnt find [" + UserInput + "] in the dictionary! \nPlease try again.\n");
+                        i += 1;
+
+                        if (UserInput == item)
+                        {
+                            ii += 1;
+                            Console.WriteLine("Dictionary value => " + NRDictionary.numbers[UserInput] + "\n");
+                        }
+                        else if (i == NRDictionary.numbers.Count && ii == 0)
+                        {
+                            Console.WriteLine("Couldnt find [" + UserInput + "] in the dictionary! \nPlease try again.\n");
+                        }
                     }
                 }
             }
