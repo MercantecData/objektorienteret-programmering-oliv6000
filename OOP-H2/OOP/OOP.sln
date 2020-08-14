@@ -21,9 +21,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateTaskConsole", "Dele
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaTaskConsole", "LambdaTaskConsole\LambdaTaskConsole.csproj", "{4BFC64D2-236C-4B74-8F0E-9FA9CEF07D55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadingGuessNumberLibrary", "MultithreadingGuessNumberLibrary\MultithreadingGuessNumberLibrary.csproj", "{A3993068-42F8-49C6-8D87-366AC667C65C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultithreadingGuessNumberLibrary", "MultithreadingGuessNumberLibrary\MultithreadingGuessNumberLibrary.csproj", "{A3993068-42F8-49C6-8D87-366AC667C65C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadingGuessNumberConsoleApp", "MultithreadingGuessNumberConsoleApp\MultithreadingGuessNumberConsoleApp.csproj", "{0DD73740-4B37-4EA9-B64D-EDC59235EA73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultithreadingGuessNumberConsoleApp", "MultithreadingGuessNumberConsoleApp\MultithreadingGuessNumberConsoleApp.csproj", "{0DD73740-4B37-4EA9-B64D-EDC59235EA73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchiveOverComputerWebshopLibrary", "Computer_Library\ArchiveOverComputerWebshopLibrary.csproj", "{89AE9395-644E-43FA-97DE-6FAF4FFF1A2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchiveOverComputerWebshopConsole", "Computer_Test\ArchiveOverComputerWebshopConsole.csproj", "{1686474A-475C-4982-95A5-B5EBAEF7F61F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FremlæggelseLibrary", "Fremlæggelse_Library\FremlæggelseLibrary.csproj", "{8B7B53C9-2800-4CE6-A9CE-60610A6CAE75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FremlæggelseConsole", "Fremlæggelse_Test\FremlæggelseConsole.csproj", "{06E1ACE9-31A6-4E19-8399-B593DFC4B6FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{0DD73740-4B37-4EA9-B64D-EDC59235EA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD73740-4B37-4EA9-B64D-EDC59235EA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD73740-4B37-4EA9-B64D-EDC59235EA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AE9395-644E-43FA-97DE-6FAF4FFF1A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AE9395-644E-43FA-97DE-6FAF4FFF1A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AE9395-644E-43FA-97DE-6FAF4FFF1A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AE9395-644E-43FA-97DE-6FAF4FFF1A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1686474A-475C-4982-95A5-B5EBAEF7F61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1686474A-475C-4982-95A5-B5EBAEF7F61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1686474A-475C-4982-95A5-B5EBAEF7F61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1686474A-475C-4982-95A5-B5EBAEF7F61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7B53C9-2800-4CE6-A9CE-60610A6CAE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7B53C9-2800-4CE6-A9CE-60610A6CAE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7B53C9-2800-4CE6-A9CE-60610A6CAE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7B53C9-2800-4CE6-A9CE-60610A6CAE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E1ACE9-31A6-4E19-8399-B593DFC4B6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E1ACE9-31A6-4E19-8399-B593DFC4B6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E1ACE9-31A6-4E19-8399-B593DFC4B6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E1ACE9-31A6-4E19-8399-B593DFC4B6FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
